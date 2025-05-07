@@ -1,0 +1,38 @@
+.v-background {
+  background-image: url('../../assets/images/work-in-progress-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+.v-content {
+  color: #1E1E1E;
+  left: 50%;
+  margin-top: 200px;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.v-text-wrapper {
+  display: flex;
+  margin-top: 10px;
+}
+
+.v-text-wrapper-2 {
+  font-weight: 100;
+  text-align: center;
+}
+
+.v-wip-text {
+  border-bottom: 1px solid #1E1E1E;
+  font-size: 50px;
+  text-wrap: nowrap;
+}
+
+.v-wip-sub-text {
+  font-size: 25px;
+  border-top: 1px solid #1E1E1E;
+  font-weight: 100;
+}
